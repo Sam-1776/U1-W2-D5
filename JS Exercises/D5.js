@@ -69,7 +69,7 @@ const cars = [
 ];
 
 for (let i = 0; i < cars.length; i++) {
-  //cars[i].licensePlate = prompt("Inserire targa max 7 caratteri (AA 000 AA)")
+  cars[i].licensePlate = prompt("Inserire targa max 7 caratteri (AA 000 AA)");
 }
 console.log(cars);
 
